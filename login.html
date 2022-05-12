@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--CSS-->
+        <!--Google fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+        <!--Bootstrap-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+        <!--Local-->
+        <link rel="stylesheet" href="estilogeral.css">
+        <link rel="stylesheet" href="_css/login.css">
+
+    <title>BlogClub</title>
+</head>
+<body>
+    
+    <div class="container conteudo-principal">
+        <div class="row">
+            
+            <div class="col-4 coluna-logo">
+                <img src="_img/logo.png" alt="">
+            </div>
+
+            <div class="col-4 coluna-login-cadastro">
+                <div class="login">
+                    <a href="" id="link-login">Login</a>
+                </div>
+                <div class="sing-up">
+                    <a href="" id="link-cadastro">Sing Up</a>
+                </div>
+            </div>
+            <div class="col-4 coluna-dados">
+                <div class="dados-login">
+
+                    <div class="form-login">                        
+                    <h2>Welcome back</h2>
+                    <p>Sign in with your account</p>
+
+                        <form>
+                            <div class="form-group">
+                              <label for="exampleInputEmail1">Email</label>
+                              <input type="email" class="form-control" id="exampleInputEmailLogin" aria-describedby="emailHelp" placeholder="user@gmail.com">
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleInputPassword1">Password</label>
+                              <input type="password" class="form-control" id="exampleInputPasswordLogin" placeholder="Password">
+                            </div>
+                            <button type="submit" class="btn btn-primary" id="btt-login">Login</button>
+                            <div id="login-concluido">
+                                <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                                <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_fyye8szy.json"  background="transparent"  speed="1"  style="width: 50px; height: 50px;"  loop  autoplay></lottie-player>
+                            </div>
+                        </form>
+                        <p id="erro-login"></p>
+                        
+                    </div>
+
+                    <div class="form-cadastro">                        
+                    <h2>Welcome</h2>
+                    <p>Sign up to create an account</p>
+
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">Name</label>
+                                <input type="text" class="form-control" id="exampleInputNameCadastro" aria-describedby="emailHelp" placeholder="Your Name">
+                              </div>
+                            <div class="form-group">
+                              <label for="exampleInputEmail1">Email</label>
+                              <input type="email" class="form-control" id="exampleInputEmailCadastro" aria-describedby="emailHelp" placeholder="user@gmail.com">
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleInputPassword1">Password</label>
+                              <input type="password" class="form-control" id="exampleInputPasswordCadastro" placeholder="Password">
+                            </div>
+                            <button type="submit" class="btn btn-primary" id="btt-cadastro">Sing Up</button>
+                            <div id="cadastro-concluido">
+                                <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+                                <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_1lg9hwi2.json"  background="transparent"  speed="1"  style="width:50px; height: 50px;"  loop  autoplay></lottie-player>
+                            </div>
+                        </form>
+                        <p id="erro-cadastro"></p>
+                        
+                       
+                    </div>
+                    
+                </div>
+            </div>
+
+           
+        </div>
+    </div>
+
+
+
+
+
+
+    <!--Scripts-->
+        <!--Bootstrap-->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+        <!--Fontawesome-->
+        <script src="https://kit.fontawesome.com/9addec38ab.js" crossorigin="anonymous"></script>
+
+        <!--Local-->
+        <script src="_js/login.js"></script>
+</body>
+</html>

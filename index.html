@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+        <style>
+            body, html{
+                padding: 0;
+                margin: 0;
+                font-family: 'Montserrat', sans-serif;
+            }
+
+            .conteudo{
+                width: 100%;
+                height: 100vh;
+                background-image: url('_img/bg-inicio.jpg');
+                background-position: center;
+                background-size: cover;
+                display: grid;
+                justify-content: center;
+                align-content: center;
+            }
+
+            img{
+                width: 60%;
+            }
+
+            h2{
+                color: #376AED;
+                font-size: 18px;
+            }
+        </style>
+
+    <title>BlogClub</title>
+</head>
+<body>
+    
+    <div class="conteudo">
+        <div style="text-align: center;">
+            <img src="_img/logo.png" alt="" srcset="">
+        </div>
+        
+        <div>
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+            <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_usmfx6bp.json"  background="transparent"  speed="1"  style="width: 100%; height: 100px;"  loop  autoplay></lottie-player>
+        </div>
+
+        <h2>Bem vindo! Espere só 5 segundos!</h2>
+    </div>
+
+
+    
+
+    <script>
+       setTimeout(function() {
+            window.location.href = "onboarding.html";
+        }, 5000);
+    </script>
+
+   
+</body>
+</html>

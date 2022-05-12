@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--CSS-->
+    <!--Google fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+        <!--Bootstrap-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+        <!--Local-->
+        <link rel="stylesheet" href="estilogeral.css">
+        <link rel="stylesheet" href="_css/onboarding.css">
+
+    <title>BlogClub</title>
+</head>
+<body >
+    
+    <div class="container conteudo-principal" id="body">
+        <div class="row">
+
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="col-6 conteudo-galeria">
+                        <img src="_img/galeria (1).jpg" alt="">
+                        <img src="_img/galeria (2).jpg" alt="">
+                        <img src="_img/galeria (3).jpg" alt="">
+                        <img src="_img/galeria (4).jpg" alt="">
+                    </div>
+                    <div class="conteudo-texto">
+                        <h2>Read the article you want instantly</h2>
+                        <p>You can read thousands of articles on Blog Club, save them in the application and share them with your loved ones.</p>
+                        
+                    </div>
+                  </div>
+
+                  <div class="carousel-item">
+                    <div class="col-6 conteudo-galeria">
+                        <img src="_img/galeria (5).jpg" alt="">
+                        <img src="_img/galeria (6).jpg" alt="">
+                        <img src="_img/galeria (7).jpg" alt="">
+                        <img src="_img/galeria (8).jpg" alt="">
+                    </div>
+                    <div class="conteudo-texto">
+                        <h2>About Buisness</h2>
+                        <p>Learn how to manage your business in a practical way and increase your revenue, without harming the health of your employees. Here you can find articles for small to large companies.</p>
+                        
+                    </div>
+                  </div>
+
+                  <div class="carousel-item">
+                    <div class="col-6 conteudo-galeria">
+                        <img src="_img/galeria (9).jpg" alt="">
+                        <img src="_img/galeria (10).jpg" alt="">
+                        <img src="_img/galeria (11).jpg" alt="">
+                        <img src="_img/galeria (12).jpg" alt="">
+                    </div>
+                    <div class="conteudo-texto">
+                        <h2>Marketing Digital</h2>
+                        <p>You will find articles on various marketing metrics, and how to apply them in each case.</p>
+                        
+                    </div>
+                  </div>
+                  
+                  <div class="carousel-item">
+                    <div class="col-6 conteudo-galeria">
+                        <img src="_img/galeria (13).jpg" alt="">
+                        <img src="_img/galeria (14).jpg" alt="">
+                        <img src="_img/galeria (15).jpg" alt="">
+                        <img src="_img/galeria (16).jpg" alt="">
+                    </div>
+                    <div class="conteudo-texto">
+                        <h2>Article about web develop</h2>
+                        <p>Questions, tips, everything about web development. From HTML to PHP..</p>
+                        
+                    </div>
+                  </div>
+                  
+                  <a href="login.html" class="entrada"><i class="fa-solid fa-arrow-right-long"></i></a>
+
+                </div>
+                
+              </div>
+        </div>
+    </div>
+
+
+
+<div id="desktop">
+  <h2>Ops... Desculpa!</h2>
+  <p>Isso não deveria estar acontecendo. 
+    <br>
+    Mas esse site ainda está em manutenção para esse tamanho de tela. <br>
+    Pedimos que use um tamanho de tela menor, o recomendado seria um smartphone.
+  </p>
+</div>
+
+
+
+    <!--Scripts-->
+        <!--Bootstrap-->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+        <!--Fontawesome-->
+        <script src="https://kit.fontawesome.com/9addec38ab.js" crossorigin="anonymous"></script>
+
+        <script>
+          var largura = window.innerWidth
+          var altura = window.innerHeight         
+
+          console.log(altura);
+          console.log(largura);
+
+          if(largura >= 767){
+            var body = document.getElementById('body')
+            body.style.display = 'none'
+            var desktop = document.getElementById('desktop')
+            desktop.style.display = 'block'
+          }          
+        </script>
+</body>
+</html>

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--CSS-->
+        <!--Google fonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+        <!--Bootstrap-->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+        <!--Local-->
+        <link rel="stylesheet" href="estilogeral.css">
+        <link rel="stylesheet" href="_css/home.css">
+        <link rel="stylesheet" href="_css/owl.carousel.css">
+
+    <title>BlogClub</title>
+</head>
+<body>
+
+<div class="container">
+        <div class="row">
+            <div class="col-6 coluna-bemVindo">
+                <p id="nome-usuario">Hi! Mariana</p>
+                <h6>Explore today’s</h6>
+            </div>
+            <div class="col-6 coluna-notificacao">
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        
+                        <i class="far fa-bell notificacao-bell">
+                            <i class="fas fa-circle notificacao-circle"></i>
+                        </i>
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <ul id="lista-notificacoes" class="list-unstyled"></ul>
+                    </div>
+                  </div>
+                
+            </div>
+        </div>
+
+        <div class="row linha-assuntos">
+            <div class="owl-carousel owl-theme">
+                <div class="item marketing">
+                    <h3>Marketing</h3>
+                </div>
+
+                <div class="item web">
+                    <h3>Web Develop</h3>
+                </div>
+                <div class="item negocios">
+                    <h3>Negócios</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class="row posts-recentes ">
+            <div class="col-6 coluna-links">
+                <h4>Latest News</h4>
+                <a href="">More</a>
+            </div>
+
+            <div class="col-6 coluna-cards">
+
+                <div class="owl-carousel owl-theme" id="novosPosts">
+                    <div class="item">
+                        <div class="card">
+                            <img class="card-img-top" src="_img/galeria (1).jpg">
+                            <div class="card-body">
+                                <h5 class="card-title">Marketing Digital e o seu negócio</h5>
+                                 <p class="card-text">Como utilizar o marketing digital na sua empresa e alcançar mais clientes?</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="card">
+                            <img class="card-img-top" src="_img/galeria (16).jpg">
+                            <div class="card-body">
+                              <h5 class="card-title">Desenvolvimento Web</h5>
+                              <p class="card-text">Como aprender Javascript?</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <div class="card">
+                            <img class="card-img-top" src="_img/galeria (5).jpg">
+                            <div class="card-body">
+                              <h5 class="card-title">Sua empresa em 1º lugar</h5>
+                              <p class="card-text">Veja como alcançar mais lucros para sua empresa.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-bottom">
+        <a class="navbar-brand" href="#">
+            <img src="_img/_icones/casinha.svg" alt="">
+            <p>Home</p> 
+        </a>
+
+        <a class="navbar-brand" href="#">
+            <img src="_img/_icones/artigos.svg" alt="">
+            <p>Article</p> 
+        </a>
+
+        <a class="navbar-brand" href="postblog.html">
+            <i class="fas fa-plus"></i>
+        </a>
+
+        <a class="navbar-brand" href="#">
+            <img src="_img/_icones/pesquisar.svg" alt="">
+            <p>Search</p>
+        </a>
+
+        <a class="navbar-brand" href="#">
+            <img src="_img/_icones/menu.svg" alt="">
+            <p>Menu</p>
+        </a>
+    </nav>
+
+</div>
+
+
+
+
+
+
+
+
+      <!--Scripts-->
+
+      <script src="/node_modules/jquery/dist/jquery.js"></script>
+      <script src="/node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
+
+        <!--Bootstrap-->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+        <!--Fontawesome-->
+        <script src="https://kit.fontawesome.com/9addec38ab.js" crossorigin="anonymous"></script>
+
+        <!--Local-->
+        <script src="_js/home.js"></script>
+        <script src="_js/owl.carousel.min.js"></script>
+
+        <script>
+            /*slide*/
+            $('.owl-carousel').owlCarousel({
+                stagePadding: 50,
+                loop:true,
+                margin:10,
+                nav:true,
+                responsive:{
+                    0:{
+                        items:1
+                    },
+                    600:{
+                        items:3
+                    },
+                    1000:{
+                        items:5
+                    }
+                }
+            })
+        </script>
+</body>
+</html>
